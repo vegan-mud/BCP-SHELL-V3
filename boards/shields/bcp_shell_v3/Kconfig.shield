@@ -1,0 +1,9 @@
+config SHIELD_BCP_SHELL_V3_DONGLE
+    def_bool $(shields_list_contains,bcp_shell_v3_dongle)
+  
+config SHIELD_BCP_SHELL_V3_LEFT
+    def_bool $(shields_list_contains,bcp_shell_v3_left)
+  
+config SHIELD_BCP_SHELL_V3_RIGHT
+    def_bool $(shields_list_contains,bcp_shell_v3_right)
+  

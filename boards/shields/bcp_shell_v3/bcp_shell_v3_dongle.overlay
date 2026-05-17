@@ -1,0 +1,22 @@
+#include "bcp_shell_v3.dtsi"
+
+/ {
+    kscan0: kscan0 {
+        compatible = "zmk,kscan-gpio-matrix";
+        diode-direction = "col2row";
+        wakeup-source;
+
+        col-gpios
+            = 
+            ;
+
+        row-gpios
+            = 
+            ;
+    };
+};
+
+&physical_layout_bcp_shell_v3 {
+    kscan = <&kscan0>;
+};
+
